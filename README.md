@@ -2,7 +2,7 @@
 Here we will discuss about Natural Language Processing. NLP stands for Natural Language Processing, which is a part of Computer Science, Human language, and Artificial Intelligence.
 
 # What is NLP ?
-1. Major role of NLP is interactions between computers and human language.
+Major role of NLP is interactions between computers and human language.
 
 # Major Area where NLP come in use :
  1. translation 
@@ -57,7 +57,7 @@ Word Tokenizer is used to break the sentence into separate words or tokens.
 Stemming is used to normalize words into its base form or root form. For example, celebrates, celebrated and celebrating, all these words are originated with a single root word "celebrate." The big problem with stemming is that sometimes it produces the root word which may not have any meaning.
 For Example, intelligence, intelligent, and intelligently, all these words are originated with a single root word "intelligen." In English, the word "intelligen" do not have any meaning.
 * Step 4: Lemmatization
-Lemmatization is quite similar to the Stamming. It is used to group different inflected forms of the word, called Lemma. The main difference between Stemming and lemmatization is that it produces the root word, which has a meaning.
+Lemmatization is quite similar to the Stemming. It is used to group different inflected forms of the word, called Lemma. The main difference between Stemming and lemmatization is that it produces the root word, which has a meaning.
 For example: In lemmatization, the words intelligence, intelligent, and intelligently has a root word intelligent, which has a meaning.
 * Step 5: Identifying Stop Words
 In English, there are a lot of words that appear very frequently like "is", "and", "the", and "a". NLP pipelines will flag these words as stop words. Stop words might be filtered out before doing any statistical analysis.
@@ -157,5 +157,8 @@ Pricing: Cloud NLP API is available for free.
 Google Cloud Natural Language API allows you to extract beneficial insights from unstructured text. This API allows you to perform entity recognition, sentiment analysis, content classification, and syntax analysis in more the 700 predefined categories. It also allows you to perform text analysis in multiple languages such as English, French, Chinese, and German.
 Pricing: After performing entity analysis for 5,000 to 10,000,000 units, you need to pay $1.00 per 1000 units per month.
 
-
+# NLP Cosine
+* cosine similarity
+1. Cosine similarity is basically the cosine of the angle between two vectors. 
+2. NLP’s text similarity works on the basis of cosine similarity.
 
